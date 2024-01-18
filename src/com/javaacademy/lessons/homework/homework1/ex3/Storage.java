@@ -10,7 +10,7 @@ public class Storage {
         items.addAll(itemsList);
     }
 
-    public void getAllThings() {
+    public void getAllItem() {
         for (int i = 0; i < items.size(); i++) {
             if (i % 2 == 0) {
                 System.out.println(items.get(i));
@@ -18,7 +18,7 @@ public class Storage {
         }
     }
 
-    public Item getThingsIndex(int index) throws Exception {
+    public Item getItemIndex(int index) throws Exception {
         if (index < items.size()) {
             Item itemIndex = items.get(index);
             items.remove(itemIndex);
@@ -29,7 +29,7 @@ public class Storage {
             return null;
     }
 
-    public void removeAllThings() {
+    public void removeAllItem() {
         if (items.size() > 1) {
             items.subList(0, items.size() - 1).clear();
         }

@@ -11,13 +11,13 @@ public class Runner {
                 new Item("Вино"),
                 new Item("Самогон")
         ));
-        storage.getAllThings();
+        storage.getAllItem();
         try {
-            System.out.println(storage.getThingsIndex(1));
+            System.out.println(storage.getItemIndex(1));
         } catch (Exception e) {
             System.out.println("такого индекса нет");
         }
-        storage.removeAllThings();
+        storage.removeAllItem();
         System.out.println(storage);
     }
 }

@@ -15,12 +15,14 @@ public class Runner {
         Product product = shopVodka.saleProduct();
         System.out.println(product);
 
+
         Phone phone = new Phone(10_000);
 
         Shop<Vodka> vodkaShop = new Shop<>();
         vodkaShop.addProduct(vodka);
         Vodka vodka1 = vodkaShop.saleProduct();
         System.out.println(vodkaShop.getIncome());
+        Shop<Product> vodkaShop11 = new Shop<>();
 
 
         ShopWithoutGeneric shopWithoutGeneric = new ShopWithoutGeneric();
