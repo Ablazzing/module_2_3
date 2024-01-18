@@ -18,6 +18,5 @@ public class Runner {
             System.out.println("такого индекса нет");
         }
         storage.removeAllItem();
-        System.out.println(storage);
     }
 }
