@@ -1,10 +1,7 @@
 package com.javaacademy.lessons.lesson8.ex1;
 
-import java.util.Comparator;
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 public class Runner {

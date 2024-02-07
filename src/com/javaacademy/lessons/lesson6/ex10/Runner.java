@@ -3,7 +3,6 @@ package com.javaacademy.lessons.lesson6.ex10;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.function.Consumer;
-import java.util.function.Function;
 
 public class Runner {
     public static void main(String[] args) {

@@ -4,10 +4,7 @@ import com.javaacademy.lessons.lesson6.ex3.cars.Car;
 import com.javaacademy.lessons.lesson6.ex3.cars.Machine;
 import com.javaacademy.lessons.lesson6.ex3.cars.Moto;
 import com.javaacademy.lessons.lesson6.ex3.cars.Truck;
-import com.javaacademy.lessons.lesson6.ex3.factory.CarFactory;
 import com.javaacademy.lessons.lesson6.ex3.factory.Factory;
-import com.javaacademy.lessons.lesson6.ex3.factory.MotoFactory;
-import com.javaacademy.lessons.lesson6.ex3.factory.TruckFactory;
 
 public class Runner {
     public static void main(String[] args) {

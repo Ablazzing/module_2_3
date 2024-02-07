@@ -1,7 +1,5 @@
 package com.javaacademy.lessons.homework.homework2.ex3;
 
-import java.util.Objects;
-
 public class Detail {
     private String name;
 

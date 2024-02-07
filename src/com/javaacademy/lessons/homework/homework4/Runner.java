@@ -1,6 +1,5 @@
 package com.javaacademy.lessons.homework.homework4;
 
-import java.util.List;
 
 public class Runner {
     public static void main(String[] args) {

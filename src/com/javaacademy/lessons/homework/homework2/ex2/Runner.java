@@ -1,7 +1,5 @@
 package com.javaacademy.lessons.homework.homework2.ex2;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.HashMap;
 
 public class Runner {
