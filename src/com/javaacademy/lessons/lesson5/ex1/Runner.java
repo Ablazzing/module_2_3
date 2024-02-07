@@ -50,7 +50,7 @@ public class Runner {
 
         //Итерация по мапе
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.printf("ключ : %s, значениe: %s\n",  entry.getKey(), entry.getValue() );;
+            System.out.printf("ключ : %s, значениe: %s\n",  entry.getKey(), entry.getValue());;
         }
     }
 }

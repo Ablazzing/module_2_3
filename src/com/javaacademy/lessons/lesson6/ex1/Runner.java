@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Runner {
     private static int lastX = 0;
+
     public static void main(String[] args) {
 
         //Функция Y - детерминирована
