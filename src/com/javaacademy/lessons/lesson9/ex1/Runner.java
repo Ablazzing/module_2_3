@@ -14,7 +14,7 @@ public class Runner {
         System.out.println(container);
 
 
-        //PECS - Producer extends Consumer super
+        //концепция PECS - Producer extends Consumer super
         // extends <- class <- super
         // banana  -  fruit  - object
 
